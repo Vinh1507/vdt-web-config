@@ -2,4 +2,4 @@ replicaCount: 2
 image:
   repository: vinhbh/vdt_web
   pullPolicy: IfNotPresent
-  tag: "6.0"
+  tag: "v2.5"
