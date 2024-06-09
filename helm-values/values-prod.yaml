@@ -1,0 +1,5 @@
+replicaCount: 2
+image:
+  repository: vinhbh/vdt_web
+  pullPolicy: IfNotPresent
+  tag: "4.0"
