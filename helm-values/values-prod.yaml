@@ -3,3 +3,24 @@ image:
   repository: vinhbh/vdt_web
   pullPolicy: IfNotPresent
   tag: "v2.10"
+
+securityContext: {}
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 80
+  nodePort: 30001
+  portName: vdt-web-port
+
+resources: {}
+
+volumes: []
+
+volumeMounts: []
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
